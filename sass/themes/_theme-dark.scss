@@ -1,0 +1,39 @@
+@use "../abstracts/variables" as vars;
+
+body.dark-mode {
+    background-color: vars.$dark-bg;
+    color: vars.$dark-text;
+}
+
+body.dark-mode .header {
+    background-color: vars.$dark-flag-box-bg;
+
+    &__button {
+        color: vars.$dark-text;
+    }
+}
+
+body.dark-mode .header__serach {
+    background-color: vars.$dark-flag-box-bg;
+    color: vars.$dark-text;
+
+    &::placeholder {
+        color: vars.$dark-text;
+    }
+}
+
+body.dark-mode .header__dropdown {
+    background-color: vars.$dark-bg;
+    color: vars.$dark-text;
+    border-color: vars.$dark-text;
+}
+
+body.dark-mode .part__flags {
+    background-color: vars.$dark-flag-box-bg;
+
+    .part__flags__body__title,
+    .part__flags__body__info h3,
+    .part__flags__body__info p {
+        color: vars.$dark-text;
+    }
+}
