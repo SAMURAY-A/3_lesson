@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sass</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
+
+
+
+
 <body>
     <header class="header">
         <div class="container header__container">
@@ -13,17 +25,15 @@
         </div>
     </header>
 
-
-    <div class="main">
+    <main class="main">
         <div class="container main__container">
-            <div class="container main__container_header">
-                <input type="text" class="header__serach" placeholder="Search for a country…" >
+            <div class="main__container__header">
+                <input type="text" class="main__container__header__search-input" placeholder="Search for a country…" />
 
-                <div class="header__dropdown">
-                    <button class="dropdown__button" id="dropdownButton">Filter by
-                        Region
-                    </button>
-                    <ul class="dropdown__menu" id="dropdownMenu">
+                <div class="main__container__header__dropdown">
+                    <button class="main__container__header__dropdown__button" id="dropdownButton">Filter by
+                        Region</button>
+                    <ul class="main__container__header__dropdown__menu" id="dropdownMenu">
                         <li class="dropdown-item">Africa</li>
                         <li class="dropdown-item">America</li>
                         <li class="dropdown-item">Asia</li>
@@ -38,13 +48,20 @@
 
 
 
+
+
+
+
+
+
+
             <div class="main__container__main">
-                <div class="container__main__part">
-                    <a href="#" class="part__flags">
+                <div class="main__container__main__part">
+                    <a href="#" class="main__container__main__part__flags">
                         <img src="images/germany.svg" alt="germany">
-                        <div class="part__flags__body">
-                            <h2 class="part__flags__body__title">Germany</h2>
-                            <ul class="part__flags__body__info">
+                        <div class="main__container__main__part__flags__body">
+                            <h2 class="main__container__main__part__flags__body__title">Germany</h2>
+                            <ul class="main__container__main__part__flags__body__info">
                                 <li>
                                     <h3>Population: </h3>
                                     <p>81,770,900</p>
@@ -60,12 +77,11 @@
                             </ul>
                         </div>
                     </a>
-
-                    <a href="#" class="part__flags">
-                        <img src="images/usa.jpg" alt="germany">
-                        <div class="part__flags__body">
-                            <h2 class="part__flags__body__title">United States of Americ</h2>
-                            <ul class="part__flags__body__info">
+                    <a href="#" class=" ">
+                        <img src="images/usa.jpg" alt="usa">
+                        <div class="main__container__main__part__flags__body">
+                            <h2 class="main__container__main__part__flags__body__title">United States of America</h2>
+                            <ul class="main__container__main__part__flags__body__info">
                                 <li>
                                     <h3>Population: </h3>
                                     <p>323,947,000</p>
@@ -81,22 +97,16 @@
                             </ul>
                         </div>
                     </a>
-
-
-                    <a href="#" class="part__flags">
-                        <img src="images/brazil.jpg" alt="germany">
-                        <div class="part__flags__body">
-                            <h2 class="part__flags__body__title">Brazil</h2>
-                            <ul class="part__flags__body__info">
+                    <a href="#" class="main__container__main__part__flags">
+                        <img src="images/brazil.jpg" alt="brazil">
+                        <div class="main__container__main__part__flags__body">
+                            <h2 class="main__container__main__part__flags__body__title">Brazil</h2>
+                            <ul class="main__container__main__part__flags__body__info">
                                 <li>
                                     <h3>Population: </h3>
                                     <p>206,135,893</p>
                                 </li>
                                 <li>
-
-
-
-                                    
                                     <h3>Region: </h3>
                                     <p>Americas</p>
                                 </li>
@@ -107,13 +117,11 @@
                             </ul>
                         </div>
                     </a>
-
-
-                    <a href="#" class="part__flags">
-                        <img src="images/iceland.png" alt="germany">
-                        <div class="part__flags__body">
-                            <h2 class="part__flags__body__title">Iceland</h2>
-                            <ul class="part__flags__body__info">
+                    <a href="#" class="main__container__main__part__flags">
+                        <img src="images/iceland.png" alt="iceland">
+                        <div class="main__container__main__part__flags__body">
+                            <h2 class="main__container__main__part__flags__body__title">Iceland</h2>
+                            <ul class="main__container__main__part__flags__body__info">
                                 <li>
                                     <h3>Population: </h3>
                                     <p>334,300</p>
@@ -129,13 +137,13 @@
                             </ul>
                         </div>
                     </a>
-
-
-                    <a href="#" class="part__flags">
-                        <img src="images/afghanistan.png" alt="germany">
-                        <div class="part__flags__body">
-                            <h2 class="part__flags__body__title">Afghanistan</h2>
-                            <ul class="part__flags__body__info">
+                </div>
+                <div class="main__container__main__part">
+                    <a href="#" class="main__container__main__part__flags">
+                        <img src="images/afghanistan.png" alt="afghanistan">
+                        <div class="main__container__main__part__flags__body">
+                            <h2 class="main__container__main__part__flags__body__title">Afghanistan</h2>
+                            <ul class="main__container__main__part__flags__body__info">
                                 <li>
                                     <h3>Population: </h3>
                                     <p>27,657,145</p>
@@ -151,13 +159,11 @@
                             </ul>
                         </div>
                     </a>
-
-
-                    <a href="#" class="part__flags">
-                        <img src="images/aland-islands.svg" alt="germany">
-                        <div class="part__flags__body">
-                            <h2 class="part__flags__body__title">Aland Islands</h2>
-                            <ul class="part__flags__body__info">
+                    <a href="#" class="main__container__main__part__flags">
+                        <img src="images/aland-islands.svg" alt="aland-islands">
+                        <div class="main__container__main__part__flags__body">
+                            <h2 class="main__container__main__part__flags__body__title">Åland Islands</h2>
+                            <ul class="main__container__main__part__flags__body__info">
                                 <li>
                                     <h3>Population: </h3>
                                     <p>28,875</p>
@@ -173,13 +179,11 @@
                             </ul>
                         </div>
                     </a>
-
-
-                    <a href="#" class="part__flags">
-                        <img src="images/albania.png" alt="germany">
-                        <div class="part__flags__body">
-                            <h2 class="part__flags__body__title">Albania</h2>
-                            <ul class="part__flags__body__info">
+                    <a href="#" class="main__container__main__part__flags">
+                        <img src="images/albania.png" alt="albania">
+                        <div class="main__container__main__part__flags__body">
+                            <h2 class="main__container__main__part__flags__body__title">Albania</h2>
+                            <ul class="main__container__main__part__flags__body__info">
                                 <li>
                                     <h3>Population: </h3>
                                     <p>2,886,026</p>
@@ -195,13 +199,11 @@
                             </ul>
                         </div>
                     </a>
-
-
-                    <a href="#" class="part__flags">
-                        <img src="images/algeria.png" alt="germany">
-                        <div class="part__flags__body">
-                            <h2 class="part__flags__body__title">Algeria</h2>
-                            <ul class="part__flags__body__info">
+                    <a href="#" class="main__container__main__part__flags">
+                        <img src="images/algeria.png" alt="algeria">
+                        <div class="main__container__main__part__flags__body">
+                            <h2 class="main__container__main__part__flags__body__title">Algeria</h2>
+                            <ul class="main__container__main__part__flags__body__info">
                                 <li>
                                     <h3>Population: </h3>
                                     <p>40,400,000</p>
@@ -220,7 +222,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+
+
     <script>
         const dropdownButton = document.getElementById('dropdownButton');
         const dropdown = document.querySelector('.main__container__header__dropdown');
@@ -246,4 +250,5 @@
 
     </script>
 </body>
+
 </html>
